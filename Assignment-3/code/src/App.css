@@ -1,0 +1,147 @@
+.container{
+    width:100%;
+}
+
+.header{
+    width:100%;
+    background-color: #eee;
+    height: 10vh;
+}
+
+.centerhead, .headarrow,.btn{
+    display:inline-block;
+    vertical-align:top;
+}
+
+
+.nameid{
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.headarrow{
+    margin-top:10px;
+    margin-left:45px;
+}
+
+#arrow{
+    color: gray;
+    font-size: 40px;
+}
+
+.centerhead{
+    margin-left:40em;
+}
+
+#graytext{
+    color:gray;
+    font-size:20px;
+}
+
+.btn{
+    margin-left: 30em;
+    margin-top:20px;
+    font-size: 20px;
+    width:70px;
+    height:40px;
+    background-color: black;
+    color: white;
+
+}
+
+.customer-info , .product-list{
+    width:96%;
+    margin-left:35px;
+    border: 2px solid rgb(230, 218, 218);
+    height:20vh;
+    border-radius: 5px;
+}
+
+.order-info{
+    width:96%;
+    margin-left:35px;
+    height:15vh;
+    background-color: rgb(204, 203, 203);
+    border: 2px solid rgb(230, 218, 218);
+    border-radius: 5px;
+    margin-top:30px;
+}
+
+.product-list{
+    margin-top: 30px;
+}
+
+
+.blocktext{
+    display:inline-block;
+    margin-right:10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left:30px;
+}
+
+.details{
+    color:gray;
+    font-size:18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order-details{
+    display: inline-block;
+    width:31%;
+    margin-left:30px;
+}
+
+li{
+    margin-left:-20px;
+    font-size: 20px;
+}
+
+.order-details p{
+    font-size: 20px;
+}
+
+.check{
+    margin-left:30px;
+    width:30px;
+    height:30px;
+    vertical-align: top;
+    margin-top:60px;
+}
+
+.product-list img{
+    height:110px;
+    width:100px;
+    margin-top: 20px;
+    margin-left:30px;
+}
+
+.product-details{
+    display: inline-block;
+    margin-left:30px;
+    vertical-align: top;
+}
+
+.product-details h3{
+    font-size: 25px;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+
+.product-details p{
+    font-size: 20px;
+    color:gray;
+    margin-top:5px;
+}
+
+#lastarrow{
+    color: gray;
+    font-size: 40px;
+    float:right;
+    margin-right:30px;
+}
+
+
+
