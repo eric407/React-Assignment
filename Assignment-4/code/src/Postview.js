@@ -16,8 +16,13 @@ React.useEffect(()=>{
   return (
     <div className="site-container">
       <div className='header-container'>
-        <span className='title'>InstaClone</span>
-        <img className='camera' src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-camera-512.png" height="50" width="50"></img>
+        <div className='title'>
+          <span >InstaClone</span>
+        </div>
+        <div className='cam'>
+          <img  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-camera-512.png" height="50" width="50"></img>
+        </div>
+
       </div>
       {
       posts.map((post,index)=>(

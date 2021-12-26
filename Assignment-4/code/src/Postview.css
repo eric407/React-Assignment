@@ -20,12 +20,13 @@ body {
   margin-left:10rem;
   font-size: 3rem;
   margin-top:0.5rem;
+  width:45%;
+  display: inline-block;
 }
-.camera{
-  position: absolute;
-  right:0;
-  margin-right:10rem;
-  margin-top:1rem;
+.cam{
+  display: inline-block;
+  width: 30%;
+  text-align: right;
 }
 
 .post-head{
